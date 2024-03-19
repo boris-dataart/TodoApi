@@ -3,7 +3,7 @@
 
 @Email=administrator@localhost
 @Password=Administrator1!
-@BearerToken=CfDJ8MNwlygIEnJHjy_i3uG0s01P1--E73QOfY__CBPGDkVSJrurFyyftBvIL_aa1Bfdp_PhBioVxDrQJm_Eed0yzk1DXYb5WuLxzDHMD0Ea4qTnE0DGKFTCHNweGHZBrEASdpbDJhkTdHF5MB5LTfkJeBpWMjV-do7JcMH7nXDSoCP-QsmYY9ZaowNnt3mPLBctL4PgfR40cRLzM8Sf9JruGXpk4KZq2SF4fQaTrmNhLlEi-ZqWkaz1OOxLyZFFfFMnG1SjiOZ4D1w74HGvIgU71cdrQgbzwFN76bMSGNj9kyTV-vijpV8XxTEwzlDWCrOtTJNtYTjLCPtyz4n2zU1X2Bf9l6G5UC6rxtbDvv_zc3BgBQiDvEkaajpnPscZfetmwTB4qcynwlzLat8hW9LZGNjUoGf2No-G14xLfGo_hwInTqNUHjr2RQvWBzJZzV0FDQx70lXgpPkVthrrP_i0hDOEjcGbTc7VMos0B4ywav8dnH5r27Z3iXMAxmGYrLBUMg1wrJFQsipSBm80_1Iv03xn2e3kcXakceJ1uJMG1fFl_fIL5VUFWCfWe2GwdmKOsAnRAnpgbDx0Dxvj0PNxMabowO2iOalaJ2O6OrA6rbpTcfvGhGBt7kz3F65Q_NqpOfEwsbOFehHFT0wje4GFRCU0sUa7sPuAErCf7F_qN3iBujcp2eNJ6B8U_JQMPIKUrx5dfl5RcABblth6lEH3o-zZcmW5h4ikU0pRNz_8IdEFglrMtpGQX10x_xNlEkd0C_2GeQV1IT0855MVYOLKpu9hC389sLBJWg4s9ZW5wNHf-RjYNtOIxNRZBJuYS_LD8w
+@BearerToken=CfDJ8MNwlygIEnJHjy_i3uG0s02SCTIO4cdavA_nBljI1i5bj3fluttIN-g8DhN0UvQG-5EL_fuLquQXnBW0P7D_x7BXV0G2SBmOQgSr6Pv51Lh4qjODUnTMm4vGzU0e1s-7nvrLcYqm-9eIpyz3XAD1b6ApzUolVdRX8uoVv43GmEw96fQtka6Q0FDQuhpFRM9GT9Gk0dplc4XA6kKhgRW7M4dbvZ9tIfbffmrPwkW0vx6GrVTFyXN4rtxMiEinVlGktdZBylxlYRByKgEIrhmH7FgANT35GjGk2iAEBT0JpEUI4gl2P1iV9bo75m_AIUzRkm2VgX_CxkykvqNL8iv_jc5qG314mlIsYiVBCSBz9Skiy2-UWgD6ielaqz5VKHJUHfGi-jzK1fNLnCkSjMhZo01226_FMSSh3LhkQRlGkDT6_tNIVXZP0fsp2KAqaGCfJPxtgFsmMMJbm2lRimam5XcTBdn8irN7L9i6IGrFvLrTvLU3DhIKsmK5cUgJYdPKWjqDQmAvlRe4SbxWN5LCNEbLC9zJKh_fOIsCBTH6gXF64UjD9eQRRJS0QcyOu7QPrwceKtXlPYeT6TWAJLESvRffmMBZ4lqb8l6p5Vf81wGGulpQU5rc9Y4h9sjV2OEzTJT6mXDKVh1Oy_mmHCzXT-cCcty7IalWjBYMZv6nIrkeatxGSE3ZuwsAq-nxixwBJ-UAsE2XDua4BrCCEY1qaIoQFyIUqT7RY8gfRQbuRBxGks1-ycXbsnyb_C7hRmInxx-BwOJJrlM8ZG9Q4vXaZnHCHPgJbnC10CwTIjpoPUaeeVN8_pm6Z2x9bvPsZWpvQQ
 
 # POST Users Register
 POST {{Web_HostAddress}}/api/Users/Register
@@ -57,20 +57,20 @@ Content-Type: application/json
 
 // CreateTodoListCommand
 {
-  "Title": "Awesome Title 2"
+  "Title": "Awesome Title 4"
 }
 
 ###
 
 # PUT TodoLists
-PUT {{Web_HostAddress}}/api/TodoLists/1
+PUT {{Web_HostAddress}}/api/TodoLists/5
 Authorization: Bearer {{BearerToken}}
 Content-Type: application/json
 
 // UpdateTodoListCommand
 {
-  "Id": 1,
-  "Title": "Awesome Title 1"
+  "Id": 5,
+  "Title": "Updated Awesome Title"
 }
 
 ###
